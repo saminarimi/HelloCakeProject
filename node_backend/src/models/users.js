@@ -36,6 +36,10 @@ const userSchema = new mongoose.Schema({
     email_verified: {
         type: Boolean,
         require: true
+    },
+    password: {
+        type: String,
+        required: true
     }
 })
 
